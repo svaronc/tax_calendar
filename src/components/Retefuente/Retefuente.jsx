@@ -1,0 +1,47 @@
+import './Retefuente.css'
+import { datos } from '../../data/clientes';
+
+const DataTable = () => {
+  return (
+    <div>
+      <h2>RETENCION EN LA FUENTE</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>NOMBRE</th>
+            <th>NIT</th>
+            <th>DV</th>
+            <th>ULTIMO</th>
+            <th>ULTIMOS 2</th>
+            <th>ENERO</th>
+            <th>FEBRERO</th>
+            <th>MARZO</th>
+            <th>ABRIL</th>
+            <th>MAYO</th>
+            <th>JUNIO</th>
+            <th>JULIO</th>
+            <th>AGOSTO</th>
+            <th>SEPTIEMBRE</th>
+            <th>OCTUBRE</th>
+            <th>NOVIEMBRE</th>
+            <th>DICIEMBRE</th>
+          </tr>
+        </thead>
+        <tbody>
+        {datos.map((cliente, index) => (
+            <tr key={index}>
+              <td>{cliente.NOMBRE}</td>
+              <td>{cliente.NIT}</td>
+              <td>{cliente.DV}</td>
+              <td>{cliente.ULTIMO}</td>
+              <td>{cliente.dosDv}</td>
+            </tr>
+          ))}
+          {/* Add more rows for additional data */}
+        </tbody>
+      </table>
+    </div>
+  );
+};
+
+export default DataTable;
