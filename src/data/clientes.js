@@ -4,7 +4,7 @@ const datos = [
     NIT: 900557900,
     DV: 1,
     ULTIMO: 0,
-    dosDv: "0",
+    dosDv: "00",
   },
   {
     NOMBRE: "COMERCIALIZADORA PEGA PEGA S.A.S",
@@ -81,7 +81,7 @@ const datos = [
     NIT: 901290803,
     DV: 9,
     ULTIMO: 3,
-    dosDv: "3",
+    dosDv: "03",
   },
   {
     NOMBRE: "VANGUARDIA LABORAL ASOCIACION SINDICAL",
@@ -198,7 +198,7 @@ const datos = [
   {
     NOMBRE: "MODA Y ESTILO GLOBAL SAS",
     NIT: 901358598,
-    DV: null,
+    DV: 0,
     ULTIMO: 8,
     dosDv: "98",
   },

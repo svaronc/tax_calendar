@@ -1,12 +1,14 @@
 
-import DataTable from '../Retefuente/Retefuente'
+import Retefuente from '../Retefuente/Retefuente'
 import './App.css'
+import Dashboard from '../Dashboard/index'
 
 function App() {
 
   return (
     <div className='App'>
-      <DataTable/>
+      {/* <Retefuente/> */}
+      <Dashboard/>
     </div>
   )
 }

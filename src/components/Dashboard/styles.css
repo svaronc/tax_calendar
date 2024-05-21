@@ -1,0 +1,21 @@
+.box{
+    background-color: #11308a;
+    color: white;
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.box_container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2rem;
+  height: 100vh;
+  margin: 4rem;
+  align-items: center;
+  align-content: center;
+}
+

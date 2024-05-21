@@ -10,4 +10,30 @@ th, td {
 th {
   background-color: #11308a;
   color: #dddddd;
-}5
+}
+
+.container {
+  margin: 20px;
+  font-size: 2rem;
+}
+
+h1 {
+  text-align: center;
+} 
+
+.search {
+  width: 20%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  background-color: white;
+  transition: width 0.4s ease-in-out;
+  color: black;
+}
+
+.search input[type="text"]:focus {
+  width: 50%;
+}

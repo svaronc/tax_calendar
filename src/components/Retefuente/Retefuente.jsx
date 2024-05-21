@@ -1,10 +1,11 @@
 import './Retefuente.css'
 import { datos } from '../../data/clientes';
 
-const DataTable = () => {
+const Retefuente = () => {
   return (
-    <div>
-      <h2>RETENCION EN LA FUENTE</h2>
+    <div className='container'>
+      <h1>RETENCION EN LA FUENTE</h1>
+      <input type="text" placeholder="Buscar cliente" className='search'/>
       <table>
         <thead>
           <tr>
@@ -44,4 +45,4 @@ const DataTable = () => {
   );
 };
 
-export default DataTable;
+export default Retefuente;
